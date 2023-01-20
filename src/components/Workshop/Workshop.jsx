@@ -151,7 +151,7 @@ const Workshop = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md">
           <div className="team-member">
             <img src={hasti} alt="Profile 1" className="img-fluid" />
             <h3>Hasti Ghaneshirazi</h3>
@@ -167,7 +167,7 @@ const Workshop = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md">
           <div className="team-member">
             <img src={nikhil} alt="Profile 1" className="img-fluid" />
             <h3>Nikhil Sharma</h3>
@@ -183,7 +183,7 @@ const Workshop = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md">
           <div className="team-member">
             <img src={aradhya} alt="Profile 1" className="img-fluid" />
             <h3>Aradhya Singh</h3>
