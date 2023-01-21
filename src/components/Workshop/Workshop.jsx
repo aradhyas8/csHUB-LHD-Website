@@ -8,12 +8,10 @@ import ning from "../../Assets/ning.jpg";
 import khadija from "../../Assets/khadija.jpg";
 import mahdeen from "../../Assets/mahdeen.jpg";
 import hasti from "../../Assets/hasti.jpg";
-import stockm from "../../Assets/stockm.jpg";
 import minh from "../../Assets/minh.jfif";
 import steeve from "../../Assets/steeve.jpg";
 import aradhya from "../../Assets/aradhya.jfif";
 import nikhil from "../../Assets/nikhil.jpg";
-import noora from "../../Assets/noora.jpg";
 import arianne from "../../Assets/arianne.JPG";
 import sourish from "../../Assets/sourish.jpg";
 
@@ -90,7 +88,7 @@ const Workshop = () => {
         <div className="col-md-3">
           <div className="team-member">
             <img src={steeve} alt="Profile 1" className="img-fluid" />
-            <h3>Steeve Johan</h3>
+            <h3>Steeve-Johan</h3>
             <p>Logistics</p>
             <p>Hackathon Experience</p>
             <div className="social-icons">
