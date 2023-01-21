@@ -64,7 +64,7 @@ const Navbar = () => {
 
           <li className="nav-item active">
             <a className="nav-link" href="#sponsorsp">
-              Sponsers
+              Sponsors
             </a>
           </li>
 
