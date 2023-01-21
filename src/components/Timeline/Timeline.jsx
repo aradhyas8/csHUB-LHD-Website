@@ -57,7 +57,7 @@ const Timeline = () => {
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
-                    <div className="timeline-date">27 January <br />Wednesday</div>
+                    <div className="timeline-date">27 January <br />Friday</div>
                     <div className="timeline-content">
                         <h3>React.js Fundamentals: Building a Weather App from Scratch</h3>
                         <div className="timeline-info">
