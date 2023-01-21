@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md">
-                <p className="text-footer">say hello @ <a href="mailto:cshub.localhackday@gmail.com" className="text-footer" >cshub.localhackday@gmail.com</a></p>
+                <p className="text-footer">say hello @ <a href="mailto:cshub.localhackday@gmail.com" className="text-footer" >cshub.localhack@gmail.com</a></p>
 
                 </div>
                 <div className="col-md-4">
