@@ -126,7 +126,7 @@ const Faq = () => {
           <div
             className={`accordion-content ${activeIndex === 8 ? 'open' : ''}`}
           >
-            Please email us at cshub.localhackday@gmail.com
+            Please email us at cshub.localhack@gmail.com
           </div>
         </div>
       </div>
