@@ -94,7 +94,7 @@ const Workshop = () => {
             <p>Logistics</p>
             <p>Hackathon Experience</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/johanotoka/">
                 <FaLinkedinIn />
               </a>
               <a href="mailto:jotok15@my.yorku.ca">
@@ -158,7 +158,7 @@ const Workshop = () => {
             <p>Technology</p>
             <p>Social Media Community Manager</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/hasti-ghaneshirazi/">
                 <FaLinkedinIn />
               </a>
               <a href="mailto:name1@email.com">
@@ -174,7 +174,7 @@ const Workshop = () => {
             <p>Technology</p>
             <p>Web Developer</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/nikhilsharma26500/">
                 <FaLinkedinIn />
               </a>
               <a href="mailto:name1@email.com">
@@ -190,7 +190,7 @@ const Workshop = () => {
             <p>Technology</p>
             <p>Web Developer</p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/baileyluu/">
+              <a href="https://www.linkedin.com/in/aradhyas8/">
                 <FaLinkedinIn />
               </a>
               <a href="https://github.com/aradhyas8">
