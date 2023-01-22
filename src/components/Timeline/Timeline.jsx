@@ -21,18 +21,6 @@ const Timeline = () => {
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
-                    <div className="timeline-date">24 January <br />Tuesday</div>
-                    <div className="timeline-content">
-                        <h3>Dive into Flask: A Beginner's Guide</h3>
-                        <div className="timeline-info">
-                            <div>Host Name: <span className="host-name">Walid</span></div>
-                            <div>Timing: 6:30 PM - 7:30 PM</div>
-                            <div>Delivery: Virtual</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="timeline-item">
-                    <div className="timeline-dot"></div>
                     <div className="timeline-date">25 January <br />Wednesday</div>
                     <div className="timeline-content">
                         <h3>Unleashing the Power of AI: Building Your First Application with AssemblyAI</h3>
@@ -87,18 +75,6 @@ const Timeline = () => {
                         <div className="timeline-info">
                             <div>Host Name: <span className="host-name">Bruno</span></div>
                             <div>Timing: 10:30 AM - 11:30 AM</div>
-                            <div>Delivery: In-Person</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="timeline-item">
-                    <div className="timeline-dot"></div>
-                    <div className="timeline-date">28 January <br />Saturday</div>
-                    <div className="timeline-content">
-                        <h3>Virtual Reality 101: An Introduction to VR Development</h3>
-                        <div className="timeline-info">
-                            <div>Host Name: <span className="host-name">OVRA</span></div>
-                            <div>Timing: 4:00 PM - 5:00 PM</div>
                             <div>Delivery: In-Person</div>
                         </div>
                     </div>

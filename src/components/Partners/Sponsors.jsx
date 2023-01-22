@@ -16,15 +16,19 @@ const Sponsors = () => {
         <div className="sponsors-title"><p>Sponsors & Partners</p></div>
         <div className="row">
           <div className="partners col-sm">
-            <div className="head">Partners</div>
+            <div className="head">Sponsors</div>
             <div className="col">
-            <a href="https://ovra.io/">
-              <img src={ovra} />
+            <a href="https://lassonde.yorku.ca/">
+              <img src={les} style={{zIndex:"1"}}/>
+              </a>
+            </div>
+            <div className="col">
+            <a href="https://github.com">
+              <img src={mlh} />
               </a>
             </div>
           </div>
-
-          <div className="partners col-sm">
+                    <div className="partners col-sm">
             <div className="head">In-Kind</div>
             <div className="col">
             <a href="https://github.com">
@@ -47,17 +51,11 @@ const Sponsors = () => {
               </a>
             </div>
           </div>
-
           <div className="partners col-sm">
-            <div className="head">Sponsors</div>
+            <div className="head">Partners</div>
             <div className="col">
-            <a href="https://lassonde.yorku.ca/">
-              <img src={les} style={{zIndex:"1"}}/>
-              </a>
-            </div>
-            <div className="col">
-            <a href="https://github.com">
-              <img src={mlh} />
+            <a href="https://ovra.io/">
+              <img src={ovra} />
               </a>
             </div>
           </div>

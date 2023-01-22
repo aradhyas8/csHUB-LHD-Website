@@ -60,10 +60,16 @@
   @media screen and (max-width: $mobile) {
     height: 100%;
     .container {
-      padding: 40px 10px;
-      .head {
-        font-size: 3rem !important;
+      position: relative;
+      .col {
+        display: block;
       }
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sponsors {
+      position: relative;
   }
 }
