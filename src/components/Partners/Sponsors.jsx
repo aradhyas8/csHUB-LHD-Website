@@ -7,6 +7,7 @@ import stack from '../../Assets/stack.png'
 import twilio from '../../Assets/twilio.png'
 import yfs from '../../Assets/yfs.png'
 import ovra from '../../Assets/ovra.jfif'
+import echo from '../../Assets/echo.webp'
 
 const Sponsors = () => {
   return (
@@ -48,6 +49,11 @@ const Sponsors = () => {
             <div className="col">
             <a href="https://www.radixdlt.com/">
               <img src={radix} />
+              </a>
+            </div>
+            <div className="col">
+            <a href="https://www.echo3d.com/brand">
+              <img src={echo} />
               </a>
             </div>
           </div>
