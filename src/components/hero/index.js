@@ -14,36 +14,29 @@ const Hero = () => {
       hour = minute * 60,
       day = hour * 24;
 
-    let today = new Date(),
-      dd = String(today.getDate()).padStart(2, "0"),
-      mm = String(today.getMonth() + 1).padStart(2, "0"),
-      yyyy = today.getFullYear(),
-      nextYear = yyyy + 1,
-      dayMonth = "01/28/",
-      birthday = dayMonth + yyyy;
-
-    today = mm + "/" + dd + "/" + yyyy;
-    if (today > birthday) {
-      birthday = dayMonth + nextYear;
-    }
-
-    const countDown = new Date(birthday).getTime(),
-      x = setInterval(() => {
-        const now = new Date().getTime(),
-          distance = countDown - now;
-
-        setCountdown({
-          days: Math.floor(distance / day),
-          hours: Math.floor((distance % day) / hour),
-          minutes: Math.floor((distance % hour) / minute),
-          seconds: Math.floor((distance % minute) / second),
-        });
+    const birthday = "01/28/2023";
+    const countDown = new Date(birthday).getTime();
+    const x = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = countDown - now;
 
         if (distance < 0) {
+          setCountdown({
+            days: 0,
+            hours: 0,
+            minutes: 0,
+            seconds: 0,
+          });
           clearInterval(x);
+        } else {
+          setCountdown({
+            days: Math.floor(distance / day),
+            hours: Math.floor((distance % day) / hour),
+            minutes: Math.floor((distance % hour) / minute),
+            seconds: Math.floor((distance % minute) / second),
+          });
         }
       }, 1000);
-
     return () => clearInterval(x);
   }, []);
 
