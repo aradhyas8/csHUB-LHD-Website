@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null)
@@ -10,8 +12,8 @@ const Faq = () => {
   return (
     <div id="faq">
     <div id='faq'>
-      <div className='accordion'>
-        <div className='titleName'>
+      <div className='accordion' data-aos="fade-up">
+        <div className='titleName' data-aos="fade-up">
           <p>Frequently Asked Questions</p>
         </div>
         <div className='blur'>
@@ -19,8 +21,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 0 ? 'active' : ''}`}
             onClick={() => handleClick(0)}
           >
-            <span>Where will the event take place?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">Where will the event take place?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 0 ? 'open' : ''}`}
@@ -31,8 +33,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 1 ? 'active' : ''}`}
             onClick={() => handleClick(1)}
           >
-            <span>How much does it cost to join?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">How much does it cost to join?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 1 ? 'open' : ''}`}
@@ -45,8 +47,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 2 ? 'active' : ''}`}
             onClick={() => handleClick(2)}
           >
-            <span>Can I work on previous projects?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">Can I work on previous projects?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 2 ? 'open' : ''}`}
@@ -60,8 +62,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 3 ? 'active' : ''}`}
             onClick={() => handleClick(3)}
           >
-            <span>How many people can be on a team?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">How many people can be on a team?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 3 ? 'open' : ''}`}
@@ -75,8 +77,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 4 ? 'active' : ''}`}
             onClick={() => handleClick(4)}
           >
-            <span>What if I don’t have any experience?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">What if I don’t have any experience?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 4 ? 'open' : ''}`}
@@ -91,8 +93,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 5 ? 'active' : ''}`}
             onClick={() => handleClick(5)}
           >
-            <span>What do I need to bring?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">What do I need to bring?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 5 ? 'open' : ''}`}
@@ -107,8 +109,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 6 ? 'active' : ''}`}
             onClick={() => handleClick(6)}
           >
-            <span>What do I do after I apply?</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">What do I do after I apply?</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 6 ? 'open' : ''}`}
@@ -120,8 +122,8 @@ const Faq = () => {
             className={`accordion-header ${activeIndex === 7 ? 'active' : ''}`}
             onClick={() => handleClick(7)}
           >
-            <span>I have more questions!</span>
-            <span className='plus'>+</span>
+            <span data-aos="fade-up">I have more questions!</span>
+            <span className='plus' data-aos="fade-up">+</span>
           </div>
           <div
             className={`accordion-content ${activeIndex === 8 ? 'open' : ''}`}

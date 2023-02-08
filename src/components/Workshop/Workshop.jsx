@@ -1,5 +1,6 @@
 import React from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
@@ -20,15 +21,15 @@ import sourish from "../../Assets/sourish.jpg";
 const Workshop = () => {
   return (
     <div id="teamp" className="container">
-      <div className="teamtitle"><p>Meet the Team</p></div>
-      <div className="main-body">
+      <div className="teamtitle"  data-aos="fade-up"><p>Meet the Team</p></div>
+      <div className="main-body" data-aos="fade-up" >
       <div className="row">
         <div className="col-md-3">
-          <div className="team-member">
-            <img src={minh} alt="Profile 2" className="img-fluid" />
-            <h3>Minh Vu</h3>
-            <p>Co-chair</p>
-            <div className="social-icons">
+          <div className="team-member" >
+            <img src={minh} alt="Profile 2" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Minh Vu</h3>
+            <p data-aos="fade-up">Co-chair</p>
+            <div className="social-icons" data-aos="fade-up" >
               <a href="https://www.linkedin.com/in/minh-n-vu/">
                 <FaLinkedinIn />
               </a>
@@ -40,10 +41,10 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={bailey} alt="Profile 1" className="img-fluid" />
-            <h3>Bailey Luu</h3>
-            <p>Co-chair</p>
-            <div className="social-icons">
+            <img src={bailey} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Bailey Luu</h3>
+            <p data-aos="fade-up">Co-chair</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/baileyluu/">
                 <FaLinkedinIn />
               </a>
@@ -55,11 +56,11 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={ning} alt="Profile 2" className="img-fluid" />
-            <h3>Ning Ma</h3>
-            <p>Logistics</p>
-            <p>Hackathon Experience</p>
-            <div className="social-icons">
+            <img src={ning} alt="Profile 2" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Ning Ma</h3>
+            <p data-aos="fade-up">Logistics</p>
+            <p data-aos="fade-up">Hackathon Experience</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/wnmwnm/">
                 <FaLinkedinIn />
               </a>
@@ -71,11 +72,11 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={mahdeen} alt="Profile 2" className="img-fluid" />
-            <h3>Mahdeen Islam</h3>
-            <p>Logistics</p>
-            <p>Vendors & Providers</p>
-            <div className="social-icons">
+            <img src={mahdeen} alt="Profile 2" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Mahdeen Islam</h3>
+            <p data-aos="fade-up">Logistics</p>
+            <p data-aos="fade-up">Vendors & Providers</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/mahdeen/">
                 <FaLinkedinIn />
               </a>
@@ -87,11 +88,11 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={steeve} alt="Profile 1" className="img-fluid" />
-            <h3>Steeve-Johan</h3>
-            <p>Logistics</p>
-            <p>Hackathon Experience</p>
-            <div className="social-icons">
+            <img src={steeve} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Steeve-Johan</h3>
+            <p data-aos="fade-up">Logistics</p>
+            <p data-aos="fade-up">Hackathon Experience</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/johanotoka/">
                 <FaLinkedinIn />
               </a>
@@ -103,11 +104,11 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={sourish} alt="Profile 1" className="img-fluid" />
-            <h3>Sourish Dayalan</h3>
-            <p>Finance</p>
-            <p>VP Finance</p>
-            <div className="social-icons">
+            <img src={sourish} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Sourish Dayalan</h3>
+            <p data-aos="fade-up">Finance</p>
+            <p data-aos="fade-up">VP Finance</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/sourish-dayalan-68027123b/">
                 <FaLinkedinIn />
               </a>
@@ -119,11 +120,11 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={arianne} alt="Profile 1" className="img-fluid" />
-            <h3>Arianne Ghislaine Rull</h3>
-            <p>Marketing</p>
-            <p>Designer</p>
-            <div className="social-icons">
+            <img src={arianne} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Arianne Ghislaine Rull</h3>
+            <p data-aos="fade-up">Marketing</p>
+            <p data-aos="fade-up">Designer</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/arianne-ghislaine-rull-93690415a/">
                 <FaLinkedinIn />
               </a>
@@ -135,11 +136,11 @@ const Workshop = () => {
         </div>
         <div className="col-md-3">
           <div className="team-member">
-            <img src={khadija} alt="Profile 1" className="img-fluid" />
-            <h3>Khadija Aftab</h3>
-            <p>Marketing</p>
-            <p>Photographer</p>
-            <div className="social-icons">
+            <img src={khadija} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Khadija Aftab</h3>
+            <p data-aos="fade-up">Marketing</p>
+            <p data-aos="fade-up">Photographer</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/khadija-aftab-1b4885238/">
                 <FaLinkedinIn />
               </a>
@@ -151,11 +152,11 @@ const Workshop = () => {
         </div>
         <div className="col-md">
           <div className="team-member">
-            <img src={hasti} alt="Profile 1" className="img-fluid" />
-            <h3>Hasti Ghaneshirazi</h3>
-            <p>Technology</p>
-            <p>Social Media Community Manager</p>
-            <div className="social-icons">
+            <img src={hasti} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Hasti Ghaneshirazi</h3>
+            <p data-aos="fade-up">Technology</p>
+            <p data-aos="fade-up">Social Media Community Manager</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/hasti-ghaneshirazi/">
                 <FaLinkedinIn />
               </a>
@@ -167,11 +168,11 @@ const Workshop = () => {
         </div>
         <div className="col-md">
           <div className="team-member">
-            <img src={nikhil} alt="Profile 1" className="img-fluid" />
-            <h3>Nikhil Sharma</h3>
-            <p>Technology</p>
-            <p>Web Developer</p>
-            <div className="social-icons">
+            <img src={nikhil} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Nikhil Sharma</h3>
+            <p data-aos="fade-up">Technology</p>
+            <p data-aos="fade-up">Web Developer</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/nikhilsharma26500/">
                 <FaLinkedinIn />
               </a>
@@ -183,11 +184,11 @@ const Workshop = () => {
         </div>
         <div className="col-md">
           <div className="team-member">
-            <img src={aradhya} alt="Profile 1" className="img-fluid" />
-            <h3>Aradhya Singh</h3>
-            <p>Technology</p>
-            <p>Web Developer</p>
-            <div className="social-icons">
+            <img src={aradhya} alt="Profile 1" className="img-fluid" data-aos="fade-up" />
+            <h3 data-aos="fade-up">Aradhya Singh</h3>
+            <p data-aos="fade-up">Technology</p>
+            <p data-aos="fade-up">Web Developer</p>
+            <div className="social-icons" data-aos="fade-up">
               <a href="https://www.linkedin.com/in/aradhyas8/">
                 <FaLinkedinIn />
               </a>

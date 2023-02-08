@@ -1,5 +1,7 @@
 import React from 'react'
 import cshub from '../../Assets/cshub.png'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
   return (
@@ -7,12 +9,12 @@ const About = () => {
     <div className='about'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-4 left'>
+          <div className='col-md-4 left' data-aos="fade-up" >
             <img src={cshub} />
           </div>
           <div className='col-md right'>
-            <div className='head row-md-4'>About us</div>
-            <div className='content row-md'>
+            <div className='head row-md-4' data-aos="fade-up">About us</div>
+            <div className='content row-md' data-aos="fade-up">
               At Computing Students Hub, we empower undergraduate students at
               Lassonde by providing representation, resources, and opportunities
               for growth in the tech industry. Through our educational events,
