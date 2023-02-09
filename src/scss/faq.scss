@@ -7,9 +7,10 @@
   max-width: 50%;
   font-family: Roboto Mono;
 
-  @media screen and (max-width: $mobile) {
+  @media screen and (max-width: 800px) {
     min-width: 100% !important;
   }
+
 }
 
 .blur {

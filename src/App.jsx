@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div className="App">
-      <div className="body">
+  
         <Particles />
         <Navbar />
         <Hero />
@@ -21,7 +21,7 @@ const App = () => {
         <Sponsors />
         <Timeline />
         <Workshop />
-      </div>
+
       <Footer />
     </div>
   );

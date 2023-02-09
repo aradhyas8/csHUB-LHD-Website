@@ -11,11 +11,24 @@
 @import './particles.scss';
 @import './footer.scss';
 
+
+
+* {
+  box-sizing: border-box;
+}
+
+
 html,
-#canvas1,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  overflow-x:hidden ;
   color: $base-color !important;
+}
+
+
+html,#canvas1 {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  
 }

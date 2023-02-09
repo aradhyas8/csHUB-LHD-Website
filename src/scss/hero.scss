@@ -2,8 +2,8 @@
 
 .hero {
   //   border: 1pt solid red;
-  overflow: hidden;
-  height: 100vh;
+  width: auto;
+  height: fit-content;
   padding: 120px 0;
 
   @media screen and (max-width: $mobile) {

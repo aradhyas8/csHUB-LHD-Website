@@ -1,5 +1,5 @@
 .about {
-  height: 100vh;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,10 +43,10 @@
     }
   }
 
-  @media screen and (max-width: $mobile) {
+  @media screen and (max-width: 600px) {
     height: 100%;
     .container {
-      padding: 20px 10px;
+
       .row {
         .right {
           text-align: center;

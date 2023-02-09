@@ -1,5 +1,5 @@
 .navbar-custom {
-  
+  max-width: 100%;
   border: transparent;
   .nav-link {
     font-family: Rajdhani, sans-serif;
@@ -23,6 +23,7 @@
 #navbar{
   background-color: transparent;
   backdrop-filter: none;
+  max-width: fit-content;
   &.open {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(12px);
